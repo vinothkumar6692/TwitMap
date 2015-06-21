@@ -52,7 +52,7 @@ public class SNS_receiver extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		try{
-			AWSCredentials credentials =new BasicAWSCredentials("AKIAIDZKESMRN4NYNO3Q","W5EqQLabPl0wVvYlOXP7VGSGpJHBc1cpjqy03lb4");	
+			AWSCredentials credentials =new BasicAWSCredentials("");	
 			String subscribeURL = "arn:aws:sns:us-east-1:326984831102:sentsns";
 			Scanner scanner = new Scanner(request.getInputStream());
 	        StringBuilder builder1 = new StringBuilder();
